@@ -1,4 +1,4 @@
-# F1000 - Coding Challenga
+# F1000 - Coding Challenge
 
 Installation steps for Task 1 - Counter
 1. Go into Task 1 and select folder counter
