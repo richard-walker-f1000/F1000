@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
+.MuiToolbar-root {
+    background-color: #253746;
+    border-bottom: 1px solid #00c49a !important;
+}
+.container {
+    display: flex;
+    padding-top: 1em;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: #253746;
+    h1 {
+        font-size: 15rem;
+        color: #ff6900;
+        margin: 0;
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+    }
+
+    .MuiInputLabel-root,
+    .MuiAutocomplete-endAdornment svg,
+    .MuiInput-input {
+        color: #fafafa !important;
+    }
+
+    .MuiInput-root {
+        border-bottom: 1px solid #fafafa !important;
+    }
+}
+.MuiButton-root {
+    background: #00c49a !important;
+    color: #253746 !important;
+}
+
+.MuiInputAdornment-root {
+    color: #ff6900 !important;
+}
+
+.city-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #253746;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    background: linear-gradient(315deg, #00c49a 0%, #00c49a 100%);
+}
+
+.not-found {
+    img {
+        margin-top: 10vh;
+        height: 50vh;
+    }
+    h3 {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        color: #ff6900 !important;
+        text-align: center;
+    }
+}
