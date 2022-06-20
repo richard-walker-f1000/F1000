@@ -3,9 +3,9 @@ import create from "zustand";
 // Inteface for the store
 interface ICounter {
     count: number;
-    incrementCount: () => void;
-    resetCounter: () => void;
-    decrementCount: () => void;
+    incrementCount(): void;
+    resetCounter(): void;
+    decrementCount(): void;
 }
 
 const useStore = create<ICounter>((set) => ({
