@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+.light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
+.regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+.medium {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+.MuiToolbar-root {
+    background-color: #253746;
+    border-bottom: 1px solid #00c49a !important;
+}
+.MuiAppBar-root {
+    box-shadow: #ff0000 !important;
+}
+.container {
+    display: flex;
+    padding-top: 15vh;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: #253746;
+    h1 {
+        font-size: 15rem;
+        color: #ff6900;
+        margin: 0;
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+    }
+}
+.MuiButton-root {
+    background: #00c49a !important;
+    color: #253746 !important;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
